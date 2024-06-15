@@ -1,0 +1,39 @@
+.loginPage{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+
+.loginForm{
+	display: flex;
+	flex-direction: column;
+	gap: 33px;
+}
+
+label{
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+
+	&:last-child{
+		flex-direction: row;
+	}
+}
+
+.input{
+	width: 100%;
+	height: 28px;
+	padding: 5px;
+	border: solid 1.3px #455;
+	border-radius: 5px;
+}
+
+.check{
+	width: 28px;
+	/* height: 28px; */
+	outline: none;
+}
