@@ -1,0 +1,16 @@
+.btnWrapper{
+	display: flex;
+	flex-flow: row wrap;
+	gap: 48px;
+	padding:  25px;
+}
+
+.btn{
+	padding: 5px 13px;
+	border: solid 2px #4555;
+	border-radius: 5px;
+
+	font-size: 12px;
+	font-weight: 600;
+	color: #1e293b;
+}
